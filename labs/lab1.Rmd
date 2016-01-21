@@ -1,0 +1,109 @@
+---
+title: 'Bio Stats II : Lab 1'
+author: "Gavin Fay"
+date: "01/27/2016"
+output: beamer_presentation
+---
+
+## Lab schedule
+
+__1/27: Introduction to R and R Studio, working with data__  
+2/03: Intro to plotting, manipulating data  
+2/10: Probability, linear modeling, PCA  
+2/17: Programming practices, conditional statements  
+2/24: Creating functions, debugging  
+3/02: Permutation analysis  
+3/09: Advanced plotting  
+
+## Why R?
+
+ __Reproducible__  
+  - command line interface encourages organization  
+  - scripts allow others (and you!) to reproduce analyses from end-to-end
+ 
+ __Extensible__  
+  - new methods delivered as developed  
+  - continual expansion through new packages  
+ 
+ __Open-source__  
+  - all code can be examined by the user
+  
+ __Free__  
+  - available to large set of users (and therefore developers)
+ 
+ R is not the only solution out there.  
+ The real goal is not to teach R, but concepts that all programming depends on.
+ 
+***
+
+Trevor Branch rule:  
+
+### "Every analysis you do on a dataset will have to be redone 10–15 times before publication.  
+
+###  Plan accordingly."
+
+
+## Recommended reading
+
+An introduction to R (Venables et al.)  
+– <http://cran.r-project.org/doc/manuals/R-intro.pdf>
+
+R reference card 2.0 (Baggott)  
+– <http://cran.r-project.org/doc/contrib/Baggott-refcard-v2.pdf>  
+– Extremely useful handout: put on wall in view of your desk  
+
+There are many (many) R books out there. Good for reference.
+
+
+## Installing R and R Studio
+
+ __R__ (<http://r-project.org>)  
+  - download appropriate version for your OS
+ 
+ __R Studio__ (<http://rstudio.com>)  
+  - a very good Integrated Development Environment (IDE) for R  
+  provides:  
+  - text editor  
+  - syntax highlighting  
+  - seamless code execution with R  
+  
+ You can use other text editors with R, but RStudio well organized.  
+ (also looks same regardless of Operating System)
+   
+
+## Getting started, command line
+
+
+
+## Getting Help
+
+ R is a programming language, there is a learning curve.  
+
+ Lots of resources:
+ 
+ - help files  
+ - online search results (Google 'Method X in R')
+ - books
+ - colleagues
+ 
+
+## Resources
+
+
+## Slide with R Code and Output
+
+```{r}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
